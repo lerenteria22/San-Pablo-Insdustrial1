@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portal Estudiantes y familias · IE San Pablo Industrial – Istmina</title>
+<meta name="description" content="Horarios por curso, calificaciones, formatos de excusa, manual de convivencia, SIEE y rutas de atención.">
+<link rel="icon" href="assets/img/escudo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!-- AVISO DE BOCETO: borrar esta línea al publicar la versión final -->
+<div class="aviso">Versión de prueba para revisión. Los datos entre [corchetes] están pendientes. Envía tus observaciones a le.renteria@outlook.com.</div>
+
+<header class="header">
+<div class="wrap">
+<a class="brand" href="index.html">
+<img src="assets/img/escudo.jpg" alt="Escudo de la IE San Pablo Industrial">
+<div><div class="brand-name">Instituto Integrado San Pablo Industrial</div><div class="brand-sub">Istmina · Chocó</div></div>
+</a>
+<div class="header-right">
+<div class="portales"><a class="btn" href="portal-estudiantes.html">Portal Estudiantes</a><a class="btn btn-verde" href="portal-docentes.html">Portal Docentes</a></div>
+</div>
+</div>
+</header>
+
+<nav class="nav" aria-label="Principal">
+<div class="wrap">
+<button type="button" class="mbtn" aria-expanded="false" aria-controls="menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>Menú</button>
+<div class="links" id="menu"><a href="index.html">Inicio</a><a href="#">Nosotros</a><a href="#">Oferta educativa</a><a href="nuestros-docentes.html">Nuestros docentes</a><a href="cronograma.html">Cronograma</a><a href="#">Noticias</a><a href="#">Transparencia</a><a href="#">Contacto</a></div>
+</div>
+</nav>
+
+<main>
+
+<section class="page-head">
+<div class="wrap">
+<div class="migas"><a href="index.html">Inicio</a> / Portal Estudiantes</div>
+<h1>Portal Estudiantes y familias</h1>
+<p>Horarios, calificaciones, formatos y normas de convivencia. Si algo no aparece aquí, escríbenos a [correo institucional].</p>
+<div class="anclas">
+<a class="ancla" href="#horarios">Horarios</a><a class="ancla" href="#formatos">Formatos</a><a class="ancla" href="#evaluacion">Evaluación (SIEE)</a><a class="ancla" href="#rutas">Rutas de atención</a><a class="ancla dest" href="https://sanpablo.educa.city/">Calificaciones · EducaCity</a>
+</div>
+</div>
+</section>
+
+<section class="section" id="horarios">
+<div class="wrap">
+<h2>Horarios por curso</h2>
+<p class="muted" style="margin:0 0 20px">Elige la sede y el grupo. También puedes descargar el horario en PDF.</p>
+<div class="pills" id="sedes" aria-label="Sede"></div>
+<div class="pills" id="grupos" aria-label="Grupo" style="margin-bottom:22px"></div>
+<div class="cabecera-seccion" style="margin-bottom:12px"><b id="titulo-horario" style="font-size:19px"></b><a href="#" style="font-weight:600">Descargar PDF</a></div>
+<p class="mhint small muted" style="margin:0 0 8px">Desliza la tabla hacia los lados para ver toda la semana →</p>
+<div class="tabla-box">
+<table class="tabla">
+<thead><tr><th style="width:110px">Hora</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr></thead>
+<tbody id="cuerpo-horario"></tbody>
+</table>
+</div>
+<p class="small muted" style="margin:10px 0 0">Datos de ejemplo. Se cargarán desde la hoja de horarios de coordinación académica.</p>
+</div>
+</section>
+
+<section class="section section-crema" id="formatos">
+<div class="wrap grid g2">
+<div>
+<h2 style="font-size:30px;margin-bottom:18px">Formatos para descargar</h2>
+<div class="docs">
+<a class="doc" href="#"><span><b>Formato de excusa por inasistencia</b><small>Entregar al día siguiente de la falta</small></span><span class="tipo">PDF</span></a>
+<a class="doc" href="#"><span><b>Solicitud de permiso de salida</b><small>Firmada por el acudiente</small></span><span class="tipo">PDF</span></a>
+<a class="doc" href="#"><span><b>Solicitud de certificado de estudios</b></span><span class="tipo">PDF</span></a>
+<a class="doc" href="#"><span><b>Requisitos y ficha de matrícula</b></span><span class="tipo">PDF</span></a>
+</div>
+</div>
+<div>
+<h2 style="font-size:30px;margin-bottom:18px">Normas y documentos</h2>
+<div class="docs">
+<a class="doc" href="#"><span><b>Manual de convivencia</b><small>Versión completa</small></span><span class="tipo">PDF</span></a>
+<a class="doc" href="#"><span><b>Mini folleto del manual</b><small>Resumen para familias</small></span><span class="tipo">PDF</span></a>
+<a class="doc" href="#"><span><b>SIEE · Sistema institucional de evaluación</b></span><span class="tipo">PDF</span></a>
+<a class="doc" href="#"><span><b>Uniformes (diario, educación física, gala y talleres)</b></span><span class="tipo">Ver</span></a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="evaluacion">
+<div class="wrap">
+<h2>¿Cómo te evaluamos?</h2>
+<p class="muted" style="margin:0 0 24px;max-width:760px">Resumen del Sistema Institucional de Evaluación (SIEE). El año tiene cuatro periodos de igual duración y valor; al final de cada uno recibes un informe, y al cierre del año un informe final.</p>
+<div class="escala">
+<div style="background:#f3e3e5"><div class="num" style="color:var(--vino)">1.0 – 2.9</div><b>Desempeño bajo</b></div>
+<div style="background:#fbf3df"><div class="num" style="color:var(--ocre)">3.0 – 3.9</div><b>Desempeño básico</b></div>
+<div style="background:#e2efe6"><div class="num" style="color:var(--verde)">4.0 – 4.5</div><b>Desempeño alto</b></div>
+<div style="background:var(--verde);color:#fff"><div class="num">4.6 – 5.0</div><b>Desempeño superior</b></div>
+</div>
+<div class="grid g2" style="gap:20px;margin-top:20px">
+<div class="caja"><b style="font-size:17px">No se promueve al grado siguiente</b><p class="muted" style="margin:8px 0 0;font-size:15px">Con desempeño final bajo en tres o más áreas, o con inasistencia injustificada a más del 25 % de las actividades académicas del año.</p></div>
+<div class="caja"><b style="font-size:17px">Refuerzo, recuperación y promoción anticipada</b><p class="muted" style="margin:8px 0 0;font-size:15px">Cada periodo hay actividades de refuerzo y recuperación. Los casos que persisten pasan a la comisión de evaluación y promoción. Quien demuestre un rendimiento superior puede solicitar promoción anticipada ante el consejo directivo.</p></div>
+</div>
+<a href="#" style="display:inline-block;margin-top:16px;font-weight:600">Leer el SIEE completo (PDF) →</a>
+</div>
+</section>
+
+<section class="section" id="rutas" style="padding-top:0">
+<div class="wrap">
+<h2>Rutas de atención integral para la convivencia</h2>
+<p class="muted" style="margin:0 0 26px;max-width:760px">Según la Ley 1620 de 2013 y nuestro manual de convivencia, cada situación tiene un responsable y un protocolo.</p>
+<div class="grid g3" style="gap:20px">
+<div class="ruta"><div class="tipo" style="color:var(--ocre)">SITUACIÓN TIPO I</div><h3>Conflictos sin daño al cuerpo o la salud</h3><p>Atiende el docente que conoce el caso, con mediación y registro en el cuaderno de seguimiento.</p></div>
+<div class="ruta" style="border-top-color:#c2581c"><div class="tipo" style="color:#a3461a">SITUACIÓN TIPO II</div><h3>Agresión, acoso o ciberacoso repetido</h3><p>Coordinación de convivencia, aviso inmediato a los acudientes y comité escolar de convivencia.</p></div>
+<div class="ruta" style="border-top-color:var(--vino)"><div class="tipo" style="color:var(--vino)">SITUACIÓN TIPO III</div><h3>Presuntos delitos</h3><p>El rector informa a la Policía de Infancia y Adolescencia y se activa el comité de convivencia.</p></div>
+</div>
+<div class="banda">
+<div><b style="font-size:18px">¿Necesitas reportar una situación?</b><div style="color:#e9dfe0;margin-top:4px">Orientación escolar: [nombre] · [teléfono] · Coordinación de convivencia: [nombre]</div></div>
+<a class="btn btn-amarillo" href="#">Ver rutas completas (PDF)</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="wrap">
+<div class="cols">
+<div><div class="serif" style="font-size:20px;color:#fff;margin-bottom:10px">IE San Pablo Industrial</div>Cra. 7.ª n.º 7-115, barrio San Francisco<br>Istmina, Chocó<br>Tel. 670 3823 · inispi@yahoo.com<br>Atención: [horario]</div>
+<div><b>Datos legales</b><br>DANE 127361000137<br>NIT 818000716-2<br>Código ICFES 009647</div>
+<div><b>Transparencia</b><br><a href="#">PEI · SIEE · Manual de convivencia</a><br><a href="#">Fondo de servicios educativos</a><br><a href="#">PQRSD</a></div>
+<div><b>Enlaces</b><br><a href="https://www.mineducacion.gov.co/portal/">Ministerio de Educación</a><br><a href="https://www.icfes.gov.co/">ICFES</a> · <a href="https://colombiaaprende.edu.co/">Colombia Aprende</a><br>[Redes sociales]</div>
+</div>
+<div class="legal">Aprobada por Resoluciones MEN 1523 de 1982 y 18572 de 1985 (modalidad técnica) · Decreto de fusión 0440 de 2003 · Resolución SED 003846 de 2013</div>
+</div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

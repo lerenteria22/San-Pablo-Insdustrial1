@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cronograma anual · IE San Pablo Industrial – Istmina</title>
+<meta name="description" content="Cronograma anual de actividades académicas, institucionales y de comunidad.">
+<link rel="icon" href="assets/img/escudo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<!-- AVISO DE BOCETO: borrar esta línea al publicar la versión final -->
+<div class="aviso">Versión de prueba para revisión. Los datos entre [corchetes] están pendientes. Envía tus observaciones a le.renteria@outlook.com.</div>
+
+<header class="header">
+<div class="wrap">
+<a class="brand" href="index.html">
+<img src="assets/img/escudo.jpg" alt="Escudo de la IE San Pablo Industrial">
+<div><div class="brand-name">Instituto Integrado San Pablo Industrial</div><div class="brand-sub">Istmina · Chocó</div></div>
+</a>
+<div class="header-right">
+<div class="portales"><a class="btn" href="portal-estudiantes.html">Portal Estudiantes</a><a class="btn btn-verde" href="portal-docentes.html">Portal Docentes</a></div>
+</div>
+</div>
+</header>
+
+<nav class="nav" aria-label="Principal">
+<div class="wrap">
+<button type="button" class="mbtn" aria-expanded="false" aria-controls="menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>Menú</button>
+<div class="links" id="menu"><a href="index.html">Inicio</a><a href="#">Nosotros</a><a href="#">Oferta educativa</a><a href="nuestros-docentes.html">Nuestros docentes</a><a href="cronograma.html" aria-current="page">Cronograma</a><a href="#">Noticias</a><a href="#">Transparencia</a><a href="#">Contacto</a></div>
+</div>
+</nav>
+
+<main>
+
+<section class="page-head">
+<div class="wrap cabecera-seccion" style="margin:0">
+<div>
+<div class="migas"><a href="index.html">Inicio</a> / Cronograma</div>
+<h1>Cronograma de actividades [año]</h1>
+<p>Calendario A, según la resolución de la Secretaría de Educación del Chocó [n.º de resolución].</p>
+</div>
+<a class="btn" href="#">Descargar PDF</a>
+</div>
+</section>
+
+<section class="section" style="padding-bottom:10px">
+<div class="wrap periodos">
+<div style="background:#7A1F2B"><b>Periodo 1</b><div class="small" style="opacity:.85">[fecha] – [fecha]</div></div>
+<div style="background:#8f2f3c"><b>Periodo 2</b><div class="small" style="opacity:.85">[fecha] – [fecha]</div></div>
+<div style="background:#1F5D3A"><b>Periodo 3</b><div class="small" style="opacity:.85">[fecha] – [fecha]</div></div>
+<div style="background:#2d7049"><b>Periodo 4</b><div class="small" style="opacity:.85">[fecha] – [fecha]</div></div>
+</div>
+</section>
+
+<section class="section" style="padding-top:30px">
+<div class="wrap">
+<div class="pills" id="meses" aria-label="Mes"></div>
+<div class="leyenda">
+<span><i style="background:#7A1F2B"></i>Académico</span><span><i style="background:#1F5D3A"></i>Institucional</span><span><i style="background:#8a6400"></i>Comunidad y familias</span><span><i style="background:#3366CC"></i>Solo docentes</span>
+</div>
+<h2 id="titulo-mes" style="font-size:30px;margin-bottom:16px"></h2>
+<div class="lista-eventos" id="lista-eventos"></div>
+<p class="small muted" style="margin:14px 0 0">Actividades de ejemplo. Se reemplazan por el cronograma oficial aprobado por el consejo directivo.</p>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="wrap">
+<div class="cols">
+<div><div class="serif" style="font-size:20px;color:#fff;margin-bottom:10px">IE San Pablo Industrial</div>Cra. 7.ª n.º 7-115, barrio San Francisco<br>Istmina, Chocó<br>Tel. 670 3823 · inispi@yahoo.com<br>Atención: [horario]</div>
+<div><b>Datos legales</b><br>DANE 127361000137<br>NIT 818000716-2<br>Código ICFES 009647</div>
+<div><b>Transparencia</b><br><a href="#">PEI · SIEE · Manual de convivencia</a><br><a href="#">Fondo de servicios educativos</a><br><a href="#">PQRSD</a></div>
+<div><b>Enlaces</b><br><a href="https://www.mineducacion.gov.co/portal/">Ministerio de Educación</a><br><a href="https://www.icfes.gov.co/">ICFES</a> · <a href="https://colombiaaprende.edu.co/">Colombia Aprende</a><br>[Redes sociales]</div>
+</div>
+<div class="legal">Aprobada por Resoluciones MEN 1523 de 1982 y 18572 de 1985 (modalidad técnica) · Decreto de fusión 0440 de 2003 · Resolución SED 003846 de 2013</div>
+</div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
